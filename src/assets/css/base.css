@@ -1,0 +1,44 @@
+
+body { 
+  /* background-color: red; */
+  font-family: 'Noto Sans KR', '맑은고딕', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', '나눔바른고딕', 'Nanum Barun Gothic', '맑은고딕', 'Malgun Gothic', sans-serif
+}
+
+.right { 
+  text-align: right;
+}
+
+a:link {  text-decoration: none;}
+
+hr { 
+  border: 0;
+  height: 1px;
+  background: rgb(237,245,239);
+}
+
+
+/* =========================================== Toast UI Editor */
+.toastui-editor-contents {
+  font-size: 0.9rem !important;
+  font-family: 'Noto Sans KR', '맑은고딕', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', '나눔바른고딕', 'Nanum Barun Gothic', '맑은고딕', 'Malgun Gothic', sans-serif !important;
+}
+
+.toastui-editor-contents  pre code {
+  font-family: 'Noto Sans KR', 'Arial', '나눔바른고딕', 'Nanum Barun Gothic', '맑은고딕', 'Malgun Gothic', sans-serif !important;
+}
+
+.toastui-editor-contents  h1 {
+  font-size: 2rem !important;
+  font-weight: bold;
+  border-width: 0 0 1px 0 !important;
+  border-style: solid !important;
+}
+
+.toastui-editor *  {
+  font-size: 1rem !important;
+}
+
+.toastui-editor-md-preview *  {
+  font-size: 1rem !important;
+}
+

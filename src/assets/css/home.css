@@ -1,0 +1,24 @@
+
+.home-navi { 
+  display: flex; 
+  height: 30px;
+  align-items: center;
+}
+
+.home-navi-icon { 
+  font-size: 2.5em;
+}
+
+.home-footer { 
+  text-align: center;
+}
+
+.home-search-div {
+  width: 600px;
+}
+.home-search-table { 
+  width: 100%;
+}
+.home-search-input { 
+  width: 100%;
+}

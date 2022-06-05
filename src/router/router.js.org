@@ -1,0 +1,29 @@
+import { createWebHistory, createRouter } from 'vue-router';
+
+const routes = [
+  {
+    path: '/',
+    redirect: '/blog',
+    name: 'home',
+    component: () => import('@/views/HomeView.vue'), // 동적 import
+    children: [
+      {
+        path: 'blog',
+        component: () => import('@/views/blog/BlogMain.vue')
+      },
+      {
+        path: 'bloghome',
+      }
+    ]
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('@/views/login/LoginView.vue'),
+  },
+]
+
+export const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
